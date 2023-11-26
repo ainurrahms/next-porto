@@ -3,12 +3,30 @@
 @tailwind utilities;
 
 .bg-gradient-jumbotron {
-  background-image:
-    linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5)),
-    url("../assets/images/bg-jumbotron.png");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url('../assets/images/bg-jumbotron.png');
 }
 
-.padding-global{
+.resume {
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/images/tablet.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+}
+
+.padding-global-projects {
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.padding-global {
   padding-left: 5%;
   padding-right: 5%;
 }
