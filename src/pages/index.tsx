@@ -105,6 +105,8 @@ export default function Home() {
                   <p className="text-xl opacity-60">Highlight of my best projects</p>
                 </div>
               </div>
+              {/* Projects */}
+              <div className=""></div>
             </div>
           </div>
         </div>
