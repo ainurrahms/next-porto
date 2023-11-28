@@ -6,6 +6,10 @@ import star from '@assets/images/star.svg';
 import projectOne from '@assets/images/project_1.png';
 import projectTwo from '@assets/images/project_2.png';
 import linkedin from '@assets/images/linkedin.svg';
+import github from '@assets/images/github.png';
+import dribbble from '@assets/images/dribbble.png';
+import medium from '@assets/images/medium.png';
+import envelope from '@assets/images/envelope.svg';
 
 const images = {
   PP,
@@ -16,6 +20,10 @@ const images = {
   projectOne,
   projectTwo,
   linkedin,
+  github,
+  dribbble,
+  medium,
+  envelope,
 };
 
 export default images;

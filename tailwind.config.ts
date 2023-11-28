@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -8,13 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      height:{
-        '85vh': '85vh'
+      height: {
+        '85vh': '85vh',
       },
-      colors:{
-        'light-grey': '#EEE'
-      }
+      colors: {
+        'light-grey': '#EEE',
+      },
+      spacing: {
+        '2%': '2%',
+      },
+      minHeight: {
+        '4.5rem': '4.5rem',
+      },
     },
   },
-}
-export default config
+};
+export default config;
