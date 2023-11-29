@@ -6,7 +6,7 @@ const Quote = () => {
     <section>
       <div className="padding-global">
         <div className="mx-auto w-full max-w-7xl">
-          <div className="py-28">
+          <div className="py-16 sm:py-24 md:py-28 ">
             <div className="flex flex-col items-center">
               <div className="mx-auto w-full max-w-3xl">
                 <div className="mx-auto flex w-full max-w-3xl flex-col items-center justify-center">

@@ -6,11 +6,11 @@ const Resume = () => {
     <section>
       <div className="padding-global">
         <div className="mx-auto w-full max-w-7xl">
-          <div className="pb-28 pt-14">
+          <div className="pb-16 pt-14 sm:pb-24 md:pb-28">
             <div className="flex flex-col items-center">
               <div className="w-full max-w-3xl">
                 <div className="mb-6">
-                  <p className="text-center text-4xl font-bold">My Resume</p>
+                  <p className="text-center text-3xl font-bold md:text-4xl">My Resume</p>
                 </div>
               </div>
               <div className="resume">
@@ -18,6 +18,14 @@ const Resume = () => {
                   <Image src={images.resume} alt="resume" priority />
                 </div>
               </div>
+              <a href="" className="block max-w-full lg:hidden">
+                <Image
+                  src={images.resume}
+                  alt="resume"
+                  priority
+                  className="rounded-lg border border-solid border-gray-300"
+                />
+              </a>
             </div>
           </div>
         </div>

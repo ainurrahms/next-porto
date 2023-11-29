@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .custom-rotate-1 {
+    transform: rotateX(0) rotateY(180deg) rotateZ(140deg);
+  }
+  .custom-rotate-2 {
+    transform: rotateX(0) rotateY(180deg) rotateZ(90deg);
+  }
+}
+
 .bg-gradient-jumbotron {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
     url('../assets/images/bg-jumbotron.png');
@@ -29,4 +38,10 @@
 .padding-global {
   padding-left: 5%;
   padding-right: 5%;
+}
+
+@media (max-width: 991px) {
+  .resume {
+    display: none;
+  }
 }

@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <div className="mx-2% fixed bottom-0 left-0 right-auto top-0 mb-6 mt-6 flex items-start">
-      <div className="min-h-4.5rem flex h-auto flex-col items-center justify-between gap-y-4 rounded-full border border-gray-300 bg-white p-2 shadow-md">
+    <div className="fixed bottom-0 left-0 right-auto top-0 z-50 mx-2% mb-6 mt-6 flex items-start">
+      <div className="flex h-auto min-h-4.5rem flex-col items-center justify-between gap-y-4 rounded-full border border-gray-300 bg-white p-2 shadow-md">
         <a href="#" className="transition duration-300 hover:scale-110">
-          <div className="flex h-12 w-12 items-center justify-center rounded-full border border-solid border-gray-300 bg-white shadow-md">
+          <div className="flex h-12 w-12 items-center justify-center rounded-full border border-solid border-gray-300 bg-white">
             <Image src={images.PP} alt="linkedin-logo" width={50} height={50} />
           </div>
         </a>
