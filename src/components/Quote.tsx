@@ -20,9 +20,8 @@ const Quote = () => {
                   <div className="flex flex-col items-center">
                     <div className="my-8 text-center">
                       <p className="italic opacity-60">
-                        "Wahai orang-orang yang beriman, bertakwalah kepada Allah dan hendaklah setiap orang
-                        memperhatikan apa yang telah diperbuatnya untuk hari esok (akhirat). Bertakwalah kepada Allah.
-                        Sesungguhnya Allah Mahateliti terhadap apa yang kamu kerjakan."
+                        "O you who have believed, fear Allāh. And let every soul look to what it has put forth for
+                        tomorrow - and fear Allāh. Indeed, Allāh is Aware of what you do."
                       </p>
                     </div>
                     <p className="font-semibold">- (QS. Al-Hasyr 59:18)</p>

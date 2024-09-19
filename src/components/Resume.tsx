@@ -15,10 +15,19 @@ const Resume = () => {
               </div>
               <div className="resume">
                 <div className="ml-[-4px] h-[790px] w-[1050px] overflow-scroll rounded-3xl border-0 bg-transparent">
-                  <Image src={images.resume} alt="resume" priority />
+                  <a
+                    href="https://drive.google.com/file/d/1QNqJAdKfArdN6mNcuA6Tg4pLDIGARm82/view?usp=sharing"
+                    target="_blank"
+                  >
+                    <Image src={images.resume} alt="resume" priority />
+                  </a>
                 </div>
               </div>
-              <a href="" className="block max-w-full lg:hidden">
+              <a
+                href="https://drive.google.com/file/d/1QNqJAdKfArdN6mNcuA6Tg4pLDIGARm82/view?usp=sharing"
+                className="block max-w-full lg:hidden"
+                target="_blank"
+              >
                 <Image
                   src={images.resume}
                   alt="resume"

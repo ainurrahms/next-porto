@@ -7,7 +7,14 @@ const Navbar = () => {
       <div className="flex h-auto min-h-4.5rem flex-col items-center justify-between gap-y-4 rounded-full border border-gray-300 bg-white p-2 shadow-md">
         <a href="#" className="transition duration-300 hover:scale-110">
           <div className="flex h-12 w-12 items-center justify-center rounded-full border border-solid border-gray-300 bg-white">
-            <Image src={images.PP} alt="linkedin-logo" width={50} height={50} />
+            <Image
+              src={images.PP}
+              alt="PP-Dummy"
+              priority
+              width={100}
+              height={100}
+              className="h-10 w-10 rounded-full object-cover"
+            />
           </div>
         </a>
         <a

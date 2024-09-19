@@ -7,8 +7,8 @@ import Jumbotron from '@components/Jumbotron';
 import AboutMe from '@components/AboutMe';
 import Resume from '@components/Resume';
 import Quote from '@components/Quote';
-import Projects from '@components/Projects';
 import Footer from '@components/Footer';
+import Projects from '@components/Projects';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Halo, Aku Ainur</title>
+        <title>Hello, I'm Ainur</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="Ainur Rahman Portfolio" key="ainurrahms" />
