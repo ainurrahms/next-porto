@@ -1,6 +1,5 @@
-import images from '@constants/images';
 import Image from 'next/image';
-import content from './content';
+import content from 'src/helper/content';
 
 const Projects = () => {
   return (
@@ -16,7 +15,10 @@ const Projects = () => {
             </div>
             {/* Projects */}
             {content.map((val, idx) => (
-              <div className="grid grid-cols-1 items-center gap-x-12 gap-y-6 border-t border-solid border-gray-300 pt-8 md:grid-cols-2 md:gap-x-16 md:gap-y-16 md:pt-12">
+              <div
+                key={idx}
+                className="grid grid-cols-1 items-center gap-x-12 gap-y-6 border-t border-solid border-gray-300 pt-8 md:grid-cols-2 md:gap-x-16 md:gap-y-16 md:pt-12"
+              >
                 <a href={val.link} target="_blank">
                   <Image src={val.src} alt="project-one" priority />
                 </a>

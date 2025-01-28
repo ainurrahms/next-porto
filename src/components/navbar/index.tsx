@@ -1,22 +1,10 @@
-import images from '@constants/images';
+import images from 'src/constants/images';
 import Image from 'next/image';
 
 const Navbar = () => {
   return (
-    <div className="fixed bottom-0 left-0 right-auto top-0 z-50 mx-2% mb-6 mt-6 flex items-start">
-      <div className="flex h-auto min-h-4.5rem flex-col items-center justify-between gap-y-4 rounded-full border border-gray-300 bg-white p-2 shadow-md">
-        <a href="#" className="transition duration-300 hover:scale-110">
-          <div className="flex h-12 w-12 items-center justify-center rounded-full border border-solid border-gray-300 bg-white">
-            <Image
-              src={images.PP}
-              alt="PP-Dummy"
-              priority
-              width={100}
-              height={100}
-              className="h-10 w-10 rounded-full object-cover"
-            />
-          </div>
-        </a>
+    <div className="fixed inset-x-0 bottom-0 z-50 mx-auto mb-6 mt-6 flex h-full max-h-14">
+      <div className="mx-auto flex h-full min-h-full w-max items-center justify-between gap-4 rounded-full border border-gray-300 bg-white p-2 shadow-md">
         <a
           href="https://www.linkedin.com/in/ainurrahms/"
           target="_blank"

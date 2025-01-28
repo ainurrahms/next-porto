@@ -13,13 +13,13 @@
 
 .bg-gradient-jumbotron {
   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
-    url('../assets/images/bg-jumbotron.png');
+    url('../images/bg-jumbotron.png');
 }
 
 .resume {
   width: 100%;
   height: 100%;
-  background-image: url('../assets/images/tablet.png');
+  background-image: url('../images/tablet.png');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;

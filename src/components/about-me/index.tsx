@@ -1,9 +1,9 @@
-import images from '@constants/images';
+import images from 'src/constants/images';
 import Image from 'next/image';
 
 const AboutMe = () => {
   return (
-    <section className="border-t-2 border-solid border-gray-300">
+    <section>
       <div className="padding-global">
         <div className="mx-auto w-full max-w-7xl">
           <div className="py-16 md:py-24">

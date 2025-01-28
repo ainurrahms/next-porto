@@ -1,9 +1,9 @@
-import images from '@constants/images';
+import images from 'src/constants/images';
 import Image from 'next/image';
 
 const Jumbotron = () => {
   return (
-    <section className="bg-gradient-jumbotron flex h-85vh items-center justify-center bg-white bg-contain">
+    <section className="flex h-85vh items-center justify-center ">
       <div className="padding-global">
         <div className="py-16">
           <div className="flex flex-col items-center justify-center text-center">
